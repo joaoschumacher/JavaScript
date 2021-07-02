@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador RGBA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador RGBA</h1>
+    </header>
+    <section class="dados">
+        <div class="sliders">
+            <label>Red</label>
+            <input type="range" name="colors" id="red" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <label>Green</label>
+            <input type="range" name="colors" id="green" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <label>Blue</label>
+            <input type="range" name="colors" id="blue" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <label>Alpha</label>
+            <input type="range" name="colors" id="red" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <div class="resultado">
+                <div class="saida">rgba(0,0,0,1)</div>
+                <div class="copyBtn" onclick="copy()"><i class="fa fa-clone" aria-hidden="true"></i></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&#x1F609; João Pedro Schumacher</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
