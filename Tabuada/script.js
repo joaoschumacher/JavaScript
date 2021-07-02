@@ -3,7 +3,7 @@ function tabuada() {
     let tab = document.getElementById("seltab")
     if (numero.value.length == 0) {
         window.alert("[ERRO] Por favor digite algum valor.")
-    }else {
+    } else {
         let n = Number(numero.value)
         let c = 1
         tab.innerHTML = ""

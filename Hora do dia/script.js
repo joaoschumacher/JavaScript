@@ -1,11 +1,9 @@
 function carregar(){
-    var msg = window.document.getElementById("msg")
-    var imgens = window.document.getElementById("foto")
     var data = new Date()
     var hora = data.getHours()
     //hora = 12
     msg.innerHTML = `Agora são ${hora} horas.`
-    if (hora >= 0 && hora < 12) {
+    if (hora >= 4 && hora < 12) {
         //bom dia
         imagens.src = "manha.png"
         document.body.style.backgroundColor = "#ffb995"
@@ -19,8 +17,4 @@ function carregar(){
         document.body.style.backgroundColor = "#334355"
     }
  }
- function aumentar() {
-     imagem = document.getElementById("imagens")
-     imagem.height
 
- }
