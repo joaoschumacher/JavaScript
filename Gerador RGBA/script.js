@@ -10,13 +10,13 @@ function PegarRGBA() {
 
 function copiarRGBA() {
     let cores = document.getElementById("cores");
-    let elemento = document.createElement("textarea");
-    elemento.value = cores.textContent;
-    document.body.appendChild(elemento);
-    elemento.select();
-    document.execCommand(copiarRGBA);
-    document.body.removeChild(elemento);
-    alert("copiado!");
+    let element = document.createElement("textarea");
+    element.value = cores.textContent;
+    document.body.appendChild(element);
+    element.select();
+    document.execCommand("copy");
+    document.body.removeChild(element);
 }
+
 
 
