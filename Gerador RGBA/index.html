@@ -26,11 +26,15 @@
             <label>Alpha</label>
             <input type="range" id="alpha" min="0" max="1" value="1" step="0.01" oninput="PegarRGBA()">
         </div>
+    </section>
+    <section class="resultados">
         <div id="saida">
             <div id="cores">rgba(0,0,0,0)</div>
-            <div id="copiar" onclick="copiarRGBA()">
-                Copiar          
+            <div id="copiar" onclick="copiarRGBA()">Copiar</div>       
         </div>
+        <div id="aleatorio"onclick="random()">
+            Randomizar
+        </div>  
     </section>
     <script src="script.js"></script>
 </body>

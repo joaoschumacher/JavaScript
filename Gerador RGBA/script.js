@@ -18,5 +18,14 @@ function copiarRGBA() {
     document.body.removeChild(element);
 }
 
+function random() {
+    let r = Math.floor(Math.random() * 255 + 1);
+    let g = Math.floor(Math.random() * 255 + 1);
+    let b = Math.floor(Math.random() * 255 + 1);
+    document.body.style.background=`rgba(${r},${g},${b},${1})`;
+    document.getElementById("cores").innerHTML = `rgba(${r},${g},${b},${1})`
+    alert(r)
+}
+
 
 
