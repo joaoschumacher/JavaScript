@@ -13,23 +13,25 @@
     </header>
     <section class="dados">
         <div class="sliders">
+
             <label>Red</label>
-            <input type="range" name="colors" id="red" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <input type="range" id="red" min="0" max="255" value="0" oninput="PegarRGBA()">
+
             <label>Green</label>
-            <input type="range" name="colors" id="green" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <input type="range" id="green" min="0" max="255" value="0" oninput="PegarRGBA()">
+
             <label>Blue</label>
-            <input type="range" name="colors" id="blue" min="0" max="255" value="0" oninput="PegarRGBA()">
+            <input type="range" id="blue" min="0" max="255" value="0" oninput="PegarRGBA()">
+
             <label>Alpha</label>
-            <input type="range" name="colors" id="red" min="0" max="255" value="0" oninput="PegarRGBA()">
-            <div class="resultado">
-                <div class="saida">rgba(0,0,0,1)</div>
-                <div class="copyBtn" onclick="copy()"><i class="fa fa-clone" aria-hidden="true"></i></div>
-            </div>
+            <input type="range" id="alpha" min="0" max="1" value="1" step="0.01" oninput="PegarRGBA()">
+        </div>
+        <div id="saida">
+            <div id="cores">rgba(0,0,0,0)</div>
+            <div id="copiar" onclick="copiarRGBA()">
+                Copiar          
         </div>
     </section>
-    <footer>
-        <p>&#x1F609; João Pedro Schumacher</p>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
