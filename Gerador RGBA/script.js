@@ -23,8 +23,7 @@ function random() {
     let g = Math.floor(Math.random() * 255 + 1);
     let b = Math.floor(Math.random() * 255 + 1);
     document.body.style.background=`rgba(${r},${g},${b},${1})`;
-    document.getElementById("cores").innerHTML = `rgba(${r},${g},${b},${1})`
-    alert(r)
+    document.getElementById("cores").innerHTML = `rgba(${r},${g},${b},${1})`;
 }
 
 
