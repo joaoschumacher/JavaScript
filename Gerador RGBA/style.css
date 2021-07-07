@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 header {
@@ -14,7 +15,6 @@ header {
     background: #fff;
     color: #4760f0;
     border-radius: 8px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
     overflow: hidden;
     display: grid;
@@ -93,11 +93,11 @@ header {
 #copiar {
     position: absolute;
     left: 243px;
-    top: 18.4px;
+    top: 17.4px;
     background-color: #cccccc;
     padding: 10px; 
     width: 67px; 
-    height: 38px;  
+    height: 40.5px;  
 }
 
 #aleatorio {
