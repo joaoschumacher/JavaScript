@@ -102,8 +102,16 @@ header {
 
 #aleatorio {
     text-align: center;
-    background-color: #e6e6e6;
+    background-color: #cccccc;
     padding: 10px;
     margin: 5px;
     width: 280px;
+}
+
+#copiar:hover {
+    background-color: #b8b7b7;
+}
+
+#aleatorio:hover {
+    background-color: #b8b7b7;
 }
